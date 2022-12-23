@@ -225,9 +225,18 @@ main{
   padding: 20px;
 }
 
-.video-box{
-
+@media (max-width: 750px){
+  main{
+    grid-template-columns: 1fr 1fr;
+  }
 }
+
+@media (min-width: 1000px){
+  main{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
 
 .thumbnail-box{
   position: relative;
